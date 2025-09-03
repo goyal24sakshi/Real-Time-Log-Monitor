@@ -1,4 +1,4 @@
-# Python
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
@@ -11,12 +11,16 @@ __pycache__/
 venv/
 ENV/
 
-# IDE/Editor files
+# IDE/Editor configs
 .vscode/
 .idea/
 
-# Logs
+# Logs & runtime data
+logs/
 *.log
+data/
+login_events.json
+login_events.checkpoint
 
 # OS-specific
 .DS_Store
