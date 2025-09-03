@@ -27,6 +27,6 @@ python src/login_producer.py
 4 Run the consumer (reads from Kafka and writes to MongoDB):
 python src/login_consumer.py
 
-5Run the dashboard (displays real-time stats):
+5 Run the dashboard (displays real-time stats):
 python src/dashboard_cli.py
 
